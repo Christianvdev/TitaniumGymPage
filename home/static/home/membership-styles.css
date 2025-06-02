@@ -1,0 +1,78 @@
+.whole-page {
+    background-color:slategray;
+}
+
+.title {
+    color: cadetblue;
+    font-size: 48px;
+    font-family:system-ui;
+    flex: 1;
+}
+.top-bar {
+    background-color:rgb(27, 26, 26);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    max-height: fit-content;
+    color:whitesmoke;
+    outline: 2px solid whitesmoke;
+
+    display: flex;
+    align-items: center;
+}
+.links {
+    margin-left: auto ;
+    margin-right: 40px;
+}
+
+.plan-heading {
+    margin-top: 200px;
+    text-align: center;
+    font-size: xx-large;
+
+    color: cadetblue;
+
+    text-shadow: 
+    -1px -1px whitesmoke,
+    -1px 1px whitesmoke,
+    1px -1px whitesmoke,
+    1px 1px whitesmoke; 
+}   
+
+.plan-tab {
+    background-color:white;
+    max-width: 400px;
+    margin: 100px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    margin: 200px auto;
+
+    font-family: 'Lucida Sans Unicode';
+    
+}
+
+.plan-name {
+    color:cadetblue;
+    font-family:system-ui;
+}
+
+.purchase-menu {
+    background-color: rgb(27, 26, 26);
+    outline: 2px solid whitesmoke;
+
+    color: cadetblue;
+    font-family:system-ui;
+
+    border-radius: 25px;
+    margin: auto;
+    max-width: 1000px;
+    font-size: x-large;
+    text-align: left;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}

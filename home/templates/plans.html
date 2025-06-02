@@ -1,0 +1,44 @@
+{% load static %}
+<html class="whole-page">
+    <body>
+        <head>
+            <link rel="stylesheet" href="{%static 'home/membership-styles.css' %}">
+        </head>
+
+        <div class="top-bar">
+
+            <h1 class="title">
+                {{gymInfo.name}}
+            </h1>
+
+            <h1 class="links">
+                Links:
+                <a href="http://127.0.0.1:8000/plans/" class="link">plans</a>
+            </h1>
+
+        </div>
+
+
+            <div class="plan-heading">
+            <h1>Flexible. Affordable. Effective.</h1>
+            </div>
+
+
+
+
+            <div>
+                {% for plan in plans %}
+                    <div class="plan-tab">
+                        <h1 class="plan-name">{{plan.name}}</h1>
+                        <p>price: {{plan.price}}</p>
+                        <p>{{plan.description}}</p>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="purchase-menu">
+                <h2>If you intend to purchase one of the following, please read below:</h2>
+                <h2>Please consult an employee at your nearest location (find our daily hours below)</h2>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+{% load static %}
+<html class="page">
+    <body>
+        <link rel="stylesheet" href="{%static 'home/home-membership-styles.css'%}">
+
+        <div class="top-bar">
+            <h1 class="title">
+                {{gymHome.name}}
+            </h1>
+            <h1 class="links">
+                Links:
+                <a href="http://127.0.0.1:8000/plans/" class="link">plans</a>
+            </h1>
+
+        </div>
+
+        <div class="content-container">
+
+
+            <div class="image-container">
+                <img src="{% static 'home/images/gym.jpg' %}" alt="Gym ad image" class="image">
+            </div>
+
+            <div class="text-container">
+                <h1>
+                    Starting at<br>
+                    {{plans.0.price}}
+                </h1>
+            </div>
+
+
+        </div>
+
+        <div class="home-description">
+            <h1>{{gymHome.homeDescription}}</h1>
+            <h1 class="outro">Titanium Lifts- Be better</h1>
+        </div>
+
+
+
+    </body>
+</html>

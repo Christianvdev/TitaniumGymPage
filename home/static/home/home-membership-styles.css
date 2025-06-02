@@ -1,0 +1,78 @@
+.main-text {
+    color: black;
+    font-family:fantasy;
+    word-spacing: 2px;
+}
+
+
+.page {
+    background-color: slategray;
+}
+
+.title {
+    color: cadetblue;
+    font-size: 48px;
+    font-family:system-ui;
+    flex: 1;
+}
+
+.links {
+    margin-left: auto ;
+    margin-right: 40px;
+}
+.top-bar {
+    background-color:rgb(27, 26, 26);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    max-height: fit-content;
+    color:whitesmoke;
+    outline: 2px solid whitesmoke;
+
+    display: flex;
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.image{
+    margin-top: 200px;
+    padding: 10px;
+    max-width: 1000px;
+    max-height: 800px;
+}
+
+.text-container {
+    margin-left: 100px;
+    flex: 1;
+    text-align: center;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-family: system-ui;
+}
+
+.home-description {
+ 
+    color: whitesmoke;
+    background-color:rgb(27, 26, 26);
+    outline: 4px solid whitesmoke;
+
+    padding: 25px;
+    letter-spacing: 2px;
+    line-height: 55px;
+
+    margin-top: 100px;
+
+}
+
+.outro {
+    color: cadetblue;
+    font-family:system-ui;
+    font-size: 64px;
+}
+
