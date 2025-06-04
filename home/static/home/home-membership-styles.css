@@ -45,6 +45,8 @@
     padding: 10px;
     max-width: 1000px;
     max-height: 800px;
+    outline: 4px solid whitesmoke;
+    padding: 0%;
 }
 
 .text-container {
@@ -54,6 +56,30 @@
     font-size: xx-large;
     color: whitesmoke;
     font-family: system-ui;
+}
+
+.small-text {
+
+    font-size: small;
+}
+
+.medium-text{
+    font-size: xx-large;
+    color: cadetblue;
+    text-shadow: 
+    -1px -1px whitesmoke,
+    -1px 1px whitesmoke,
+    1px -1px whitesmoke,
+    1px 1px whitesmoke; 
+}
+
+.price {
+    color:cadetblue;
+    text-shadow: 
+    -1px -1px whitesmoke,
+    -1px 1px whitesmoke,
+    1px -1px whitesmoke,
+    1px 1px whitesmoke; 
 }
 
 .home-description {
